@@ -26,3 +26,7 @@ console.log("Multi-dimensional array: " + brothers);
 // Array bracket is similar to strings
 let firstBrother = brothers[0]
 console.log("First brother, using array bracket in a multi-dimensional array: " + firstBrother);
+
+// Arrays are mutable (even CONST)
+myArray[0] = "String updated";
+console.log(myArray)
