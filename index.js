@@ -85,3 +85,16 @@ sumWithArguments(1,2);
 function plusUltra(num) {
     return num * 100000000000000000000;
 }
+
+// if
+function trueOrFalse(wasThatTrue) {
+    // Only change code below this line
+    if (wasThatTrue) {
+      return "Yes, that was true";
+    }
+    return "No, that was false";
+  
+  
+    // Only change code above this line
+  
+  }
