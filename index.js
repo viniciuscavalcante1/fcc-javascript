@@ -43,3 +43,10 @@ myArrayRemoved = myArray.pop()
 console.log("myArray after pop method: " + myArray);
 console.log("Pop element: " + myArrayRemoved);
 
+// array shift() method -> same as pop, but with the first element
+myArray.push('1');
+console.log('myArray after new push:' + myArray);
+myArrayShiftRemoved = myArray.shift();
+console.log('myArray after shift method: ' + myArray);
+console.log("Element removed with shift: " + myArrayShiftRemoved);
+
