@@ -132,7 +132,7 @@ function testStrictNotEqual(val) {
   
   testStrictNotEqual(10);
 
-// greater then
+// greater than
 function testGreaterThan(val) {
     if (val > 100) {  // Change this line
       return "Over 100";
