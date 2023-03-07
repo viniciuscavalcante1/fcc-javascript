@@ -32,3 +32,7 @@ console.log("Age of the first brother, using multi-dimensional array brackets: "
 // Arrays are mutable (even CONST)
 myArray[0] = "String updated";
 console.log(myArray)
+
+// array push() method -> insert elements in the end of array
+brothers.push(["Vi", 40])
+console.log("Brothers array with last push: " + brothers)
