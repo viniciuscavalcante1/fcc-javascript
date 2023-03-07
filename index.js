@@ -36,3 +36,10 @@ console.log(myArray)
 // array push() method -> insert elements in the end of array
 brothers.push(["Vi", 40])
 console.log("Brothers array with last push: " + brothers)
+
+// array pop() method -> remove last element and return it
+console.log("myArray before pop method: " + myArray);
+myArrayRemoved = myArray.pop()
+console.log("myArray after pop method: " + myArray);
+console.log("Pop element: " + myArrayRemoved);
+
