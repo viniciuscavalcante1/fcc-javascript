@@ -61,3 +61,11 @@ console.log("myArray after unshift value 0: " + myArray);
 
 // More multi-dimensional arrays:
 const myList = [["Pão", 5], ["Batata", 6], ["Ketchup", 1], ["Pilha", 1], ["Água com gás", 8]];
+
+// functions
+function functionName() {
+    console.log("Hello, World! This is being printed out by a function!");
+}
+
+// function call
+functionName();
