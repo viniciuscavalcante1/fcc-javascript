@@ -18,3 +18,7 @@ console.log("The last letter of my first name is " + lastLetterFirstName + ".");
 // Javascript arrays are similar to Python's.
 const myArray = ["String", 1];
 console.log("Array: " + myArray);
+
+// Multi-dimensional arrays:
+const brothers = [["Vini", 24], ["Bru", 32]];
+console.log("Multi-dimensional array: " + brothers);
