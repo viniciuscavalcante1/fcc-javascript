@@ -50,3 +50,11 @@ myArrayShiftRemoved = myArray.shift();
 console.log('myArray after shift method: ' + myArray);
 console.log("Element removed with shift: " + myArrayShiftRemoved);
 
+// array unshift() method -> same as push, but with the first element
+myArray.push(2);
+myArray.push(3);
+console.log("New myArray after new pushes: " + myArray);
+myArray.shift();
+console.log("myArray after shift: " + myArray);
+myArray.unshift(0);
+console.log("myArray after unshift value 0: " + myArray);
