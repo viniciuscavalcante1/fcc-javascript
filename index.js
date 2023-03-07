@@ -79,3 +79,9 @@ function sumWithArguments(num1, num2) {
 
 console.log('Function with arguments:');
 sumWithArguments(1,2);
+
+// return
+
+function plusUltra(num) {
+    return num * 100000000000000000000;
+}
