@@ -69,3 +69,13 @@ function functionName() {
 
 // function call
 functionName();
+
+// function parameters are placeholders, while arguments are the values 
+// that will serve as input for these placeholders
+
+function sumWithArguments(num1, num2) {
+    console.log(num1 + num2);
+}
+
+console.log('Function with arguments:');
+sumWithArguments(1,2);
