@@ -14,3 +14,7 @@ console.log("The first letter of my first name is " + firstLetterFirstName + "."
 let lastLetterFirstName = "";
 lastLetterFirstName = FIRSTNAME[FIRSTNAME.length - 1];
 console.log("The last letter of my first name is " + lastLetterFirstName + ".");
+
+// Javascript arrays are similar to Python's.
+const myArray = ["String", 1];
+console.log("Array: " + myArray);
