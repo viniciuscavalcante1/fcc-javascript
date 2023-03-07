@@ -58,3 +58,6 @@ myArray.shift();
 console.log("myArray after shift: " + myArray);
 myArray.unshift(0);
 console.log("myArray after unshift value 0: " + myArray);
+
+// More multi-dimensional arrays:
+const myList = [["Pão", 5], ["Batata", 6], ["Ketchup", 1], ["Pilha", 1], ["Água com gás", 8]];
