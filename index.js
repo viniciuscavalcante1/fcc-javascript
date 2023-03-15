@@ -660,3 +660,12 @@ const myArray = [];
 for (let i = 1; i <= 5; i++) {
   myArray.push(i);
 }
+
+// for with 2 increment
+// Setup
+const myArray = [];
+
+// Only change code below this line
+for (let i = 1; i < 10; i += 2) {
+  myArray.push(i);
+}
